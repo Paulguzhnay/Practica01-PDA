@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API RESTful - Usuario</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+    <script type="text/javascript" src="script.js" defer></script>
+</head>
+<body>
+    <h1>API RESTful</h1>
+    <h2>Usuario</h2>
+    <div id="usuario">
+        <label>Nombre:</label>
+        <input type="text" id="nombre" value=""/>
+        <label>Apellido:</label>
+        <input type="text" id="apellido" value=""/>
+        <button onclick="guardar_usuario()">Guardar</button>
+        <button onclick="cancelar_usuario()">Cancelar</button>
+    </div>
+
+    <h2>Lista de Usuarios</h2>
+    <br>
+    <button onclick="listar_usuarios()">Listar Usuarios</button>
+    <br>
+    <br>
+    
+    <table id="lista_usuarios" border="1">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Botones</th>
+            </tr>
+        </thead>
+        <tbody>
+ 
+        </tbody>
+    </table>
+
+</body>
+</html>
